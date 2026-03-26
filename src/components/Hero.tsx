@@ -1,6 +1,5 @@
 import { motion, useScroll, useTransform, MotionValue } from 'framer-motion';
 import { ArrowRight, Github, Linkedin, Mail } from 'lucide-react';
-// @ts-ignore - CustomAnimation is a JSX file without type declarations
 import HexagonBackground from './CustomAnimation';
 
 const ScrollLetter = ({ char, index, scrollY }: { char: string, index: number, scrollY: MotionValue<number> }) => {
